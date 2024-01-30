@@ -1,25 +1,106 @@
 <html>
 <head>
-  <style>
-    h1 {
-      color: blue;
-      text-align: center;
-    }
-    p {
-      font-family: Arial;
-      font-size: 20px;
-    }
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
-  </style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  margin: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 5px solid #ffffff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #444444;
+  border: 10px solid #555555;
+}
+
+.recipe {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+</style>
 </head>
 <body>
-  <h1>Привет, мир!</h1>
-  <p>Это простой сайт, созданный с помощью html и css.</p>
-  <img src="https://www.bing.com/th?id=OIP.3fZyQ0Y9x6Lg2Yn7lYjJLwHaEK&pid=Api&rs=1" alt="Картинка солнца">
+<h1>Сайт с рецептами пельменей</h1>
+<div class="container">
+  <div class="recipe">
+    <h2>6 лучших рецептов теста для пельменей</h2>
+    <p>Пельмени из теста на воде, минералке, молоке или кефире будут очень вкусными и крепкими.</p>
+    <img src="testo-dlya-pelmenej-recepty.jpg" alt="Тесто для пельменей">
+    <p>Для приготовления теста для пельменей вам понадобятся следующие ингредиенты:</p>
+    <ul>
+      <li>300 мл кефира</li>
+      <li>1 ч.л. соли</li>
+      <li>450 г муки</li>
+    </ul>
+    <p>Пошаговый рецепт теста для пельменей:</p>
+    <ol>
+      <li>В миске смешайте кефир и соль.</li>
+      <li>Постепенно добавляйте муку, замешивая тесто ложкой или руками.</li>
+      <li>Выложите тесто на стол, посыпанный мукой, и замесите его до эластичности.</li>
+      <li>Скатайте тесто в шар, заверните в пищевую пленку и оставьте на 30 минут.</li>
+      <li>Раскатайте тесто в тонкий пласт и вырежьте кружочки для пельменей.</li>
+    </ol>
+    <p>Источник: <a href="^4^">6 лучших рецептов теста для пельменей</a></p>
+  </div>
+  <div class="recipe">
+    <h2>Другие сайты с рецептами пельменей</h2>
+    <ul>
+      <li><a href="^5^">Пельмени - пошаговый рецепт с фото на Готовим дома</a></li>
+      <li><a href="^6^">Лучший рецепт теста для пельменей</a></li>
+      <li><a href="^10^">Пельмени, рецепты с фото на RussianFood.com: 530 рецептов пельменей</a></li>
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+</div>
 </body>
 </html>
